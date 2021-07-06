@@ -1,0 +1,8 @@
+// function to calculate speed
+function cal_speed(dist,time)
+{
+    document.write("Distance(km) : " + dist + "<br>");
+    document.write("Time(hr) : " + time + "<br>");
+
+    return dist/time;
+}
